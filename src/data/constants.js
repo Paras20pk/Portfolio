@@ -10,7 +10,7 @@ export const Bio = {
       "Motivated Web Developer with a BE in Information Technology. Excelled in academics and extracurriculars, showcasing a passion for learning and innovation. Actively participated in social activities and sports, highlighting commitment to personal growth and community impact. Eager to apply skills to meaningful projects and contribute positively to the web development field.",
     github: "https://github.com/Paras20pk/",
     resume:
-      "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+      " ",
     linkedin: "https://www.linkedin.com/in/paras-kacha-161b671a2/",
     twitter: "https://twitter.com/",
     insta: "https://www.instagram.com/paras20pk/",
