@@ -4,6 +4,8 @@ import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Snackbar } from '@mui/material';
 
+
+
 const Container = styled.div`
 display: flex;
 flex-direction: column;
@@ -130,7 +132,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_7kfplvl','template_0i4lqjc', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_7kfplvl','template_0i4lqjc', form.current, 'R18jawn8A7_kaMDqw')
       .then((result) => {
         setOpen(true);
         form.current.reset();
@@ -142,27 +144,27 @@ const Contact = () => {
 
 
   return (
-    <Container>
-      <Wrapper>
-        <Title>Contact(Unavailable)</Title>
-        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
-        <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
-        </ContactForm>
-        <Snackbar
-          open={open}
-          autoHideDuration={6000}
-          onClose={()=>setOpen(false)}
-          message="Email sent successfully!"
-          severity="success"
-        />
-      </Wrapper>
-    </Container>
+  <Container>
+        <Wrapper>
+          <Title>Contact Me</Title>
+          <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+          <ContactForm ref={form} onSubmit={handleSubmit}>
+            <ContactTitle>Email Me 🚀</ContactTitle>
+            <ContactInput placeholder="Your Email" name="from_email" />
+            <ContactInput placeholder="Your Name" name="from_name" />
+            <ContactInput placeholder="Subject" name="subject" />
+            <ContactInputMessage placeholder="Message" rows="4" name="message" />
+            <ContactButton type="submit" value="Send" />
+          </ContactForm>
+          <Snackbar
+            open={open}
+            autoHideDuration={6000}
+            onClose={()=>setOpen(false)}
+            message="Email sent successfully!"
+            severity="success"
+          />
+        </Wrapper>
+  </Container>
   )
 }
 
