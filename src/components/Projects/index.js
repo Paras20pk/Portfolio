@@ -12,31 +12,37 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
+          I have worked on a wide range of projects. From web apps to graphics designing. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
-            <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+            <ToggleButton active value="all" onClick={() => setToggle('all')}>ALL</ToggleButton>
             :
-            <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+            <ToggleButton value="all" onClick={() => setToggle('all')}>ALL</ToggleButton>
           }
           <Divider />
           {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APPS</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APPS</ToggleButton>
           }
           <Divider />
-          {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+          {toggle === 'dot net' ?
+            <ToggleButton active value="dot net" onClick={() => setToggle('dot net')}>DOT NET APPS</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton value="dot net" onClick={() => setToggle('dot net')}>DOT NET APPS</ToggleButton>
           }
           <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+          {toggle === 'graphics' ?
+            <ToggleButton active value="graphics" onClick={() => setToggle('graphics')}>GRAPHICS</ToggleButton>
             :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+            <ToggleButton value="graphics" onClick={() => setToggle('graphics')}>GRAPHICS</ToggleButton>
+          }
+          <Divider />
+          {toggle === 'ML' ?
+            <ToggleButton active value="ML" onClick={() => setToggle('ML')}>MACHINE LEARNING</ToggleButton>
+            :
+            <ToggleButton value="ML" onClick={() => setToggle('ML')}>MACHINE LEARNING</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>

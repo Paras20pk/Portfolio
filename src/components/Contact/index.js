@@ -144,7 +144,7 @@ const Contact = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>Contact(Under Maintenance)</Title>
+        <Title>Contact(Unavailable)</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
