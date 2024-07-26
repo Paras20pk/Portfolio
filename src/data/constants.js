@@ -1,4 +1,11 @@
-
+import IndImage from "../images/INDEPENDENCE.jpg"
+import KDiwas from "../images/KargilDiwasMotorolls (1).jpg"
+import PortFolio from "../images/Portfolio.png"
+import ChatBotImg from "../images/Chatbot.png"
+import AgrowImage from "../images/Agrownet.png"
+import ImageColor from "../images/ImageColor.png"
+import Movie from "../images/Movie.png"
+import ParkImage from "../images/Parking.png"
 export const Bio = {
     name: "Paras Kacha",
     roles: [
@@ -281,7 +288,7 @@ export const Bio = {
       description:
         "AgrowNet: Empowering farmers with real-time data and expert insights for sustainable and efficient agricultural management. The platform facilitates seamless integration of weather, soil, and crop data, providing personalized crop recommendations, disease detection, market analysis, and comprehensive farm planning tools to enhance productivity and sustainability.",
       image:
-        " ",
+        AgrowImage,
       tags: [
         "React JS",
         "Spring Boot",
@@ -300,7 +307,7 @@ export const Bio = {
       description:
         "By leveraging advanced machine learning models and algorithms, we transform black-and-white images into vivid, full-color representations. Project learns the intricate relationships between grayscale and color images. It predicts and applies colors to objects, scenes, and landscapes, producing striking and realistic results",
       image:
-        " ",
+        ImageColor,
       tags: [
         "Machine Learning",
         "Python",
@@ -317,7 +324,7 @@ export const Bio = {
       description:
         " Our Movie Recommendation System using Machine Learning project is your personal movie guide. It employs machine learning algorithms to analyze your viewing history and preferences, offering tailor-made movie recommendations.",
       image:
-        " ",
+        Movie,
       tags: ["Machine Learning", "Python", "Data Visualization", "Database"],
       category: "ML",
       github: "https://github.com/Paras20pk/TXON_04",
@@ -330,7 +337,7 @@ export const Bio = {
       description:
         "I have developed an inquiry chatbot using Machine Learning, Python, and JSON. It efficiently handles a wide range of user queries with high accuracy, continuously improving through ML. This chatbot enhances customer service by providing instant, accurate responses and can be customized to fit various industry needs.",
       image:
-        " ",
+        ChatBotImg,
       tags: ["Machine Learning",
         "Python",
         "JSON", "MySQL"],
@@ -345,7 +352,7 @@ export const Bio = {
       description:
         "I have created a portfolio website using React. This dynamic and responsive site showcases my skills, projects, and professional achievements. Leveraging React's powerful capabilities, the website provides an engaging user experience with seamless navigation and modern design elements. It is an ideal platform to highlight my expertise.",
       image:
-        " ",
+      PortFolio,
       tags: ["React Js", "Vercel", "Github", "CSS"],
       category: "web app",
       github: "https://portfolio-paras-projects-d2ee2e13.vercel.app/",
@@ -358,7 +365,7 @@ export const Bio = {
       description:
         " I have developed a Facial Recognition Based Attendance System using Machine Learning. This system ensures accurate identification and automated attendance tracking, streamlining the process and reducing manual effort. Ideal for institutions and organizations, it offers a secure and efficient solution for attendance management.",
       image:
-        " ",
+        "https://www.facechk.com/wp-content/uploads/2020/10/face-recognition-attendance-system.jpg",
       tags: ["Machine Learning",
         "Python",
         "Image Processing",],
@@ -373,7 +380,7 @@ export const Bio = {
       description:
         "I have developed a smart street light and parking booking slot system using Embedded C and Java. This system optimizes street lighting for energy efficiency and enables convenient parking slot booking, enhancing urban infrastructure management.",
       image:
-        " ",
+      ParkImage,
       tags: ["Embedded C", "IOT", "Java",],
       category: "web app",
       github: " ",
@@ -386,7 +393,7 @@ export const Bio = {
       description:
         "Designed a vibrant Independence Day poster in Canva, celebrating national pride and unity with patriotic themes and colors.",
       image:
-      " ",
+      IndImage,
       tags: ["Canva"],
       category: "graphics",
       github: "https://github.com/Paras20pk/Graphics/blob/main/INDEPENDENCE.jpg",
@@ -399,49 +406,10 @@ export const Bio = {
       description:
         "Created a commemorative Kargil Vijay Diwas poster in Canva, honoring the bravery and sacrifice of soldiers with a respectful and evocative design.",
       image:
-        " ",
+      KDiwas,
       tags: ["Canva"],
       category: "graphics",
       github: "https://github.com/Paras20pk/Graphics/blob/main/KargilDiwasMotorolls%20(1).jpg",
-      webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    },
-    {
-      id: 2,
-      title: " Ramnavmi Poster",
-      date: "April 2024",
-      description:
-        "Developed a festive Ramnavmi poster in Canva, capturing the essence of the celebration with traditional elements and bright, joyful visuals.",
-      image:
-        " ",
-      tags: ["Canva"],
-      category: "graphics",
-      github: "https://github.com/Paras20pk/Graphics/blob/main/Ramnavmi.jpg",
-      webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    },
-    {
-      id: 11,
-      title: "Gudi Padwa Poster",
-      date: "April 2024",
-      description:
-        "Designed a colorful Gudi Padwa poster in Canva, highlighting the cultural significance and festive spirit of the occasion with eye-catching graphics.",
-      image:
-        " ",
-      tags: ["Canva"],
-      category: "graphics",
-      github: "https://github.com/Paras20pk/Graphics/blob/main/GudiPadwaMotorolls%20(2).jpg",
-      webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    },
-    {
-      id: 12,
-      title: "Eid Poster",
-      date: "June 2024",
-      description:
-        "Created an elegant Eid poster in Canva, reflecting the joyous and spiritual aspects of the festival with beautiful and serene design elements.",
-      image:
-        " ",
-      tags: ["Canva"],
-      category: "graphics",
-      github: "https://github.com/Paras20pk/Graphics/blob/main/EidMotorolls%20(1).jpg",
       webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
     },
   ];
