@@ -18,7 +18,7 @@ export const Bio = {
       "Motivated Web Developer with a BE in Information Technology. Excelled in academics and extracurriculars, showcasing a passion for learning and innovation. Actively participated in social activities and sports, highlighting commitment to personal growth and community impact. Eager to apply skills to meaningful projects and contribute positively to the web development field.",
     github: "https://github.com/Paras20pk/",
     resume:
-      " ",
+      " https://drive.google.com/file/d/1kdfR2ysrd_CMmtA2CUuc20s3OjnkX9-a/view?usp=drive_link ",
     linkedin: "https://www.linkedin.com/in/paras-kacha-161b671a2/",
     twitter: "https://twitter.com/",
     insta: "https://www.instagram.com/paras20pk/",
@@ -252,11 +252,19 @@ export const Bio = {
   
   export const education = [
     {
+      id: 3,
+      img: "https://tse3.mm.bing.net/th?id=OIP.Fcyo0pRFUhHa95kPNbbuEgHaFj&pid=Api&P=0&h=180",
+      school: "Pimpri Chinchwad College of Engineering.",
+      date: "Sep 2024 - Present.",
+      desc: "I pursuing my MTech in Computer Engineering at Pimpri Chinchwad College of Engineering, Pune.",
+      degree: "Masters of Technology - MTech, Computer Engineering",
+    },
+    {
       id: 0,
       img: "https://tse3.mm.bing.net/th?id=OIP.LneHqxrR96TkOkJw8qXD5gHaHa&pid=Api&P=0&h=180",
       school: "Anantrao Pawar College of Engineering and Research.",
       date: "Oct 2021 - Sep 2024",
-      grade: "8.93 CGPA",
+      grade: "8.23 CGPA",
       desc: "I completed my B.E in Information Technology at Anantrao Pawar College of Engineering and Research, Pune.",
       degree: "Bachelor of Engineering - BE, Information Technology Engineering",
     },
