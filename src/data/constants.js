@@ -9,16 +9,17 @@ import ParkImage from "../images/Parking.png"
 export const Bio = {
     name: "Paras Kacha",
     roles: [
+      "Prompt Engineer",
+      "Genrative AI Enthusiast",
+      "AI-ML Developer",
       "Web Developer",
       "Graphic Designer",
-      ".Net Developer",
-      "Programmer",
     ],
     description:
-      "Motivated Web Developer with a BE in Information Technology. Excelled in academics and extracurriculars, showcasing a passion for learning and innovation. Actively participated in social activities and sports, highlighting commitment to personal growth and community impact. Eager to apply skills to meaningful projects and contribute positively to the web development field.",
+      "Motivated Engineer pursuing an MTech in Computer Engineering. Excelled in academics and extracurriculars, showcasing a passion for learning and innovation. Eager to apply skills, including proficiency with ChatGPT and GenerativeAI applications, to meaningful projects and contribute positively to the field",
     github: "https://github.com/Paras20pk/",
     resume:
-      " https://drive.google.com/file/d/1kdfR2ysrd_CMmtA2CUuc20s3OjnkX9-a/view?usp=drive_link ",
+      " https://drive.google.com/file/d/1YP5zj5y13Yn9HCLK0T-fvjqptMYrPRbv/view?usp=drive_link ",
     linkedin: "https://www.linkedin.com/in/paras-kacha-161b671a2/",
     twitter: "https://twitter.com/",
     insta: "https://www.instagram.com/paras20pk/",
@@ -84,32 +85,27 @@ export const Bio = {
       ],
     },
     {
-      title: ".Net Developer",
+      title: "AI Tools & Applications",
       skills: [
         {
-          name: "C#",
+          name: "ChatGPT",
           image:
-            "https://serengetijade.github.io/img/technologies/csharp.jpg",
+            "https://tse2.mm.bing.net/th?id=OIP.KSMhR7M9QeD74XnUhwuZ2QHaHa&pid=Api&P=0&h=180",
         },
         {
-          name: "ASP .net",
+          name: "OpenAI API",
           image:
-            "https://logodix.com/logo/1796956.png",
+            "https://images.sj33.cn/uploads/202212/7-22122Z21331236.png",
         },
         {
-          name: "MVC",
+          name: "Gemini",
           image:
-            "https://www.csharp411.com/wp-content/uploads/2023/05/MVC-Logo-1.jpg",
+            "https://storage.googleapis.com/media-newsinitiative/images/Google_Gemini_logo.svg.original.png",
         },
         {
-          name: "Visual Studio Code",
+          name: "DALL-E",
           image:
-            "https://1000logos.net/wp-content/uploads/2020/08/Visual-Studio-Logo-2048x1280.png",
-        },
-        {
-          name: "LINQ",
-          image:
-            "https://i.ytimg.com/vi/wwEa5kIfzos/maxresdefault.jpg",
+            "https://tse4.mm.bing.net/th?id=OIP.m0X66Hq2uv54Af2R5fIXdAHaEK&pid=Api&P=0&h=180",
         },
       ],
     },
@@ -127,9 +123,9 @@ export const Bio = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
         },
         {
-          name: "Postman",
+          name: "AI-ML",
           image:
-            "https://iconape.com/wp-content/png_logo_vector/postman.png",
+            "https://tse2.mm.bing.net/th?id=OIP.NCIIZB327R8DLL_gBClTrwHaFG&pid=Api&P=0&h=180",
         },
         {
           name: "Adobe Photoshop",
